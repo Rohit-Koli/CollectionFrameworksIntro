@@ -30,5 +30,7 @@ public class ArrayListDemo {
 		al3.add(ar);
 		System.out.println(al3);
 		
+		
+		
 	}
 }
