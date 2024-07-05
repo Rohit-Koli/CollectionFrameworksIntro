@@ -10,6 +10,8 @@ ArrayList :
 	Null insertion is possible
 	Bydefault is non synchronized / thread safe
 	
+	ArrayList can traverse only in forward direction
+	
 	This is how we can define arrayList :
 		ArrayList ar = new ArrayList();
 		ArrayList ar2 = new ArrayList(50);

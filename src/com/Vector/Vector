@@ -1,0 +1,19 @@
+Vector :
+	Implementation of stack
+	child of list interface so it has 
+	Preserves insertion order 
+	duplicates allowed
+	null insertion is allowed
+	we can add homogeneous as well as heterogeneous data
+	vector class implement Serializable, clonable and RandomAccess interfaces 
+	legacy class (Available from Version1.0)
+	MOst of the methods are synchronized
+	present in java.util package
+	
+	Serialization : 
+		Best operation for retrieval
+
+Stack :
+	Vector is parent class of stack
+	stack inherits all the functionalities of vector
+	Random access is possible in this stack

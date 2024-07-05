@@ -1,0 +1,27 @@
+Set Interface :
+	Implements Hash table
+		Hash Table:
+		 	Key value Pairs 
+	duplicate elements not allowed 
+	Available in java.util package
+	Heterogeneous data allowed
+	Null insertion is allowed
+	Implements serializable,clonable and Random access interface
+	Insertion order is not preserved
+	Its is non synchronized
+
+LinkedHashSet
+	Combination of linked list and Hashset
+	Null insertion is allowed
+	We cannot add Duplicate elements 
+	Slower than hashset
+	It is nonSynchronized
+	efficient for insertion and Deletion
+	We can call LinkedHashSet = LinkedList + HashSet
+	
+	We can create LinkedHashSet using set also 
+	Following is the example of how can we declare the linkedHashSet
+	Set<Integer> s = new LinkedHashSet<>();
+		s.add(100);
+		LinkedHashSet<Integer> lh = new LinkedHashSet<>();
+		lh.add(10);
