@@ -1,0 +1,12 @@
+Map :
+	Map is Separate interface a part of collections interface
+	Store's data in a key Value pairs
+	Introduced from 1.8 Version
+	One to one mapping(One key for one data)
+	We can Directly mention key and their values 
+	Key   , Value
+	Implementation of map is HashMap
+	Duplicate data is not allowed
+	Key should not be duplicate,Duplicate value is allowed but not the key
+	Null data is allowed to insert
+	

@@ -1,9 +1,7 @@
 package com.Set;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.Set;
 public class Set_Demo {
 	public static void main(String[] args) {

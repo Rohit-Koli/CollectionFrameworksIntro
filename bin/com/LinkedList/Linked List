@@ -1,0 +1,11 @@
+Linked List: 
+	It is a Data structure 
+	Random access is not possible
+	child class of list Interface
+	In java it is a doubly linked list available in collection frameworks as Linked List
+	Duplicate elements are allowed to store
+	Null Insertion is allowed
+	Homogeneous as well as heterogeneous data is allowed to store
+	Linked list is non synchronized(Multiple thread can access the link list)
+	Non thread safe (Because it is non synchronized)
+	Insertion order is also possible

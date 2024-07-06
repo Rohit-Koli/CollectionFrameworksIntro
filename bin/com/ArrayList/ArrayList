@@ -1,0 +1,19 @@
+ArrayList :
+	If we want to hetrogenious data then we can use only simple arrayList
+	
+	If we want to use homogenious data then we can use generic class  
+	
+	ArrayList extends abstract list class and implement list interface
+	Duplicates are allowed 
+	Insertion order is preserved
+	hetrogenious is allowed to store
+	Null insertion is possible
+	Bydefault is non synchronized / thread safe
+	
+	ArrayList can traverse only in forward direction
+	
+	This is how we can define arrayList :
+		ArrayList ar = new ArrayList();
+		ArrayList ar2 = new ArrayList(50);
+		ArrayList ar3 = new ArrayList(ar);
+	

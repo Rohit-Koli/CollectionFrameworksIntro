@@ -1,0 +1,13 @@
+Queue Interface :
+	It follows first in first order 
+	Elements are accessed or remove through head only
+	Elements can added in tail only
+	Null insertion not allowed 
+	
+Dequeue:
+	Doubly ended queue
+	We can perform insertion and deletion from from both ends
+	It implement FIFO / FILO
+	Null insertion not allowed here
+	Element can retrieve and accessed from both ends
+	Homogeneous as well as heterogeneous data insertion is possible 
