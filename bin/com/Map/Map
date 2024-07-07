@@ -10,3 +10,44 @@ Map :
 	Key should not be duplicate,Duplicate value is allowed but not the key
 	Null data is allowed to insert
 	
+Linked HashMap:
+	Combination of LinkedList and HashMap
+	It implements HashTable
+	It Contains only unique values
+	Linked HashMap is non synchronized
+	It allows only one null key,but values can have multiple null values 
+	It initial capacity is 16
+	Load factor is 0.75 
+	It maintains insertion order	
+	
+	Aquires more memory
+	Slower than HashMap
+	
+	Uses of LinkedHashMap
+		To add values in contineous manner
+		TO use functionality's of HashMap with LinkedList
+		When we have no bound of Execution speed
+		
+TreeMap:
+	TreeMap is child of SortedMap and Map class interface
+	Implements data structure TreeMap
+	It contains only unique element's
+	TreeMap is non Synchronized(NOt thread Safe)
+	We cannot put null key value ,but multiple null values 
+
+Weak HashMap
+	Garbage collector may remove null keys and associated
+	Allow only one null key , and allow multiple duplicate values
+	Does not allow duplicate keys
+	Non Synchronized
+	Default size is 16 
+	Load factor is 0.75
+	Does not store 
+	TO clear memory in efficient way by the use of GarbageCollecot (System.gc())
+	
+	
+	
+	
+	
+	
+	
