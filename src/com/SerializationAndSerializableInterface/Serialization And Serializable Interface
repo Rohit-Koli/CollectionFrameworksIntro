@@ -1,0 +1,5 @@
+Serialization And Serializable Interface
+
+Serialization:
+	Is a marker interface
+	to traverse or to store

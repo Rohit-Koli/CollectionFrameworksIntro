@@ -1,0 +1,9 @@
+Comparable and Comparator this are the methods to sort the data
+COmparable Interface :
+	It is used to sort only one value type of data 
+	THis package is available in java.lang
+		Example's are : Employee and EmployeeObj
+
+Comparator
+	This interface is used to compare multiple values 
+	This class is available in java.util package  

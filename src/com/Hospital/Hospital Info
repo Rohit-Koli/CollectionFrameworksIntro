@@ -1,0 +1,15 @@
+Hospital Database
+
+1)patient No 
+2)Patient name
+3)Doctor Name
+4)Specialization --
+	cardiologist
+	Neurologist
+	Orthologist
+	surger
+	dentist
+	pysologist
+	
+5)Bill NO
+6)Bill Amount
