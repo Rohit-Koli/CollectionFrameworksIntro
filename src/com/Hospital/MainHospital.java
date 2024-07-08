@@ -4,12 +4,11 @@ import java.util.*;
 public class MainHospital {
 	
 	public static List<PatientInfo> p = new ArrayList<>();
-	
+	public static Scanner sc = new Scanner(System.in);
 	public void addPatient() {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter Patient Id :");
-		int p_id=sc.nextInt();
 		
+		System.out.println("Enter Patient Id :");
+		int p_id=sc.nextInt();		
 		sc.nextLine();
 		
 		System.out.println("Enter Patient Name :");
@@ -37,7 +36,7 @@ public class MainHospital {
 		System.out.println("5.View Patients record by Doctor's Specialization :");
 		System.out.println("6.View Patients record by Bill No :");
 		System.out.println("7.View Patients record by Bill Amount :");
-		System.out.println("9.Exit");
+		System.out.println("8.Exit");
 	}
 	
 	public void printDetails() {
@@ -49,7 +48,6 @@ public class MainHospital {
 	public static void main(String[] args) {
 		
 		MainHospital obj = new MainHospital();
-		Scanner sc = new Scanner(System.in);
 		
 		p.add(new PatientInfo(403,"Rohit Koli","Rakesh Patil","Neuro",340,5000.67));
 		p.add(new PatientInfo(739,"Meghraj Narkhede","Sachin Pawar","Dentist",783,1800.00));
@@ -63,6 +61,7 @@ public class MainHospital {
 		while(count==0) {
 			obj.menuOptions();
 			choice=sc.nextInt();
+			sc.nextLine();
 			switch(choice) {
 				case 1:
 					obj.addPatient();
@@ -93,10 +92,10 @@ public class MainHospital {
 					break;
 				case 8:
 					count=1;
+					sc.close();
 					break;					
 			}
 		}
-		System.out.println("Thank You for using our Application !");
-		sc.close();		
+		System.out.println("Thank You for using our Application !");	
 	}
 }
