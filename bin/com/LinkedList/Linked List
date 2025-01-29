@@ -9,3 +9,95 @@ Linked List:
 	Linked list is non synchronized(Multiple thread can access the link list)
 	Non thread safe (Because it is non synchronized)
 	Insertion order is also possible
+	
+Here’s a list of common functions provided by the `LinkedList` class in Java (part of `java.util`) and their use cases:
+
+1. **add(E element)**: 
+   - Adds the specified element at the end of the list.
+   - **Use case**: Add an element to the list (e.g., appending a new item).
+   
+2. **add(int index, E element)**: 
+   - Inserts the specified element at the specified position in the list.
+   - **Use case**: Add an element at a specific index in the list.
+   
+3. **addFirst(E element)**: 
+   - Adds the specified element at the beginning of the list.
+   - **Use case**: Insert an element at the start of the list.
+   
+4. **addLast(E element)**: 
+   - Adds the specified element at the end of the list (same as `add(E)`).
+   - **Use case**: Append an element to the end of the list.
+   
+5. **remove()**: 
+   - Removes and returns the first element of the list.
+   - **Use case**: Remove the first element of the list (like a queue).
+   
+6. **remove(int index)**: 
+   - Removes the element at the specified index.
+   - **Use case**: Delete an element at a specific position.
+   
+7. **removeFirst()**: 
+   - Removes and returns the first element.
+   - **Use case**: Remove the first element of the list.
+   
+8. **removeLast()**: 
+   - Removes and returns the last element.
+   - **Use case**: Remove the last element of the list.
+   
+9. **get(int index)**: 
+   - Returns the element at the specified position.
+   - **Use case**: Retrieve an element by index.
+   
+10. **getFirst()**: 
+    - Returns the first element.
+    - **Use case**: Access the first element.
+   
+11. **getLast()**: 
+    - Returns the last element.
+    - **Use case**: Access the last element.
+   
+12. **set(int index, E element)**: 
+    - Replaces the element at the specified index with the given element.
+    - **Use case**: Update an element at a specific index.
+   
+13. **size()**: 
+    - Returns the number of elements in the list.
+    - **Use case**: Get the size of the list.
+   
+14. **isEmpty()**: 
+    - Checks if the list is empty.
+    - **Use case**: Verify if the list has no elements.
+   
+15. **contains(Object o)**: 
+    - Checks if the list contains the specified element.
+    - **Use case**: Check if a specific element exists in the list.
+   
+16. **clear()**: 
+    - Removes all elements from the list.
+    - **Use case**: Empty the list.
+   
+17. **peek()**: 
+    - Retrieves the first element without removing it.
+    - **Use case**: Look at the first element without altering the list.
+   
+18. **offer(E e)**: 
+    - Inserts the specified element at the end of the list (similar to `add`).
+    - **Use case**: Add an element to the list (commonly used with queues).
+   
+19. **poll()**: 
+    - Retrieves and removes the first element, or returns null if the list is empty.
+    - **Use case**: Remove and return the first element (used in queues).
+   
+20. **indexOf(Object o)**: 
+    - Returns the index of the first occurrence of the specified element, or -1 if not found.
+    - **Use case**: Find the position of an element in the list.
+   
+21. **lastIndexOf(Object o)**: 
+    - Returns the index of the last occurrence of the specified element, or -1 if not found.
+    - **Use case**: Find the last occurrence of an element.
+   
+22. **clone()**: 
+    - Creates and returns a shallow copy of the list.
+    - **Use case**: Duplicate the list.
+
+Each of these functions helps manipulate, access, or manage the data stored in a `LinkedList`. The choice of function depends on the desired operation (e.g., adding, removing, accessing, etc.).
