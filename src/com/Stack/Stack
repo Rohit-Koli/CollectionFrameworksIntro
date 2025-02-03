@@ -1,0 +1,17 @@
+Stack :
+In Java, the Stack class is part of the Java Collections Framework 
+and extends the Vector class. It represents a last-in, first-out (LIFO)
+stack of objects. This means that the last element added to the stack
+will be the first one to be removed. The Stack class provides several 
+methods to manipulate the stack, such as pushing, popping, and peeking.
+
+When to Use Stack:
+	Backtracking Algorithms: Stacks are useful in algorithms that
+	require backtracking,such as depth-first search (DFS) in graphs.
+	
+	Expression Evaluation: Stacks can be used to evaluate expressions,
+	such as arithmetic expressions or balanced parentheses.
+	
+	Undo Mechanisms: Stacks can be used to implement undo mechanisms
+	in applications, where each action is pushed onto the stack and 
+	can be popped to undo it.
